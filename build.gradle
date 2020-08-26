@@ -1,15 +1,21 @@
-apply plugin: "java"
+plugins {
+    id 'java'
+}
 
-respositories{
+group 'com.proha'
+
+repositories {
     mavenCentral()
 }
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    testCompile "junit:junit:4.12"
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+//    implementation group: "ai.h2o", name:"h2o-genmodel-ext-xgboost", version:"3.22.0.3"
 }
 jar {
-    baseName = 'DataStructurePractice'
-    version =  '0.1.0'
+    archivesBaseName = 'DataStructurePractice'
+    archiveVersion =  '0.1.0'
 }

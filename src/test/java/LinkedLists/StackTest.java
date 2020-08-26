@@ -1,5 +1,6 @@
-package test.java.LinkedLists;
+package LinkedLists;
 
+import hex.genmodel.easy.RowData;
 import main.java.LinkedLists.LinkedListImpl;
 import main.java.LinkedLists.StackImpl;
 import org.junit.Test;
@@ -30,5 +31,10 @@ public class StackTest {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.toString());
+    }
+
+    @Test
+    public void justTEst(){
+
     }
 }

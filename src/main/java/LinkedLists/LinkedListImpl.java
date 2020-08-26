@@ -1,4 +1,4 @@
-package main.java.LinkedLists;
+package LinkedLists;
 
 public class LinkedListImpl {
     private Node head = null;

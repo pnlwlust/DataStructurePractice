@@ -1,4 +1,4 @@
-package test.java.LinkedLists;
+package LinkedLists;
 
 import main.java.LinkedLists.QueueImpl;
 import main.java.LinkedLists.StackImpl;

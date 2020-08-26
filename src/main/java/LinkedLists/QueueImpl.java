@@ -1,4 +1,4 @@
-package main.java.LinkedLists;
+package LinkedLists;
 
 import java.util.EmptyStackException;
 
